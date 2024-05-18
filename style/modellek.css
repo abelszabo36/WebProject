@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    margin: 10px;
+}
+
+.article_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.article_container img{
+    max-width: 500px;
+    margin: 10px 30px;
+}
+
+.article_container p{
+    text-align: justify;
+    margin: 10px;
+}
+
+table{
+    margin: auto;
+}
+
+td, th{
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+summary:hover{
+    cursor: pointer;
+}
+
+details p{
+    font-size: 16px;
+    opacity: .8;
+}

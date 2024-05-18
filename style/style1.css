@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+  background-color: rgb(233, 236, 242);
+}
+
+.kipozicional a {position:absolute; left:-9999px;} 
+.kipozicional a:focus {position:static; background:white}	
+
+p{
+    font-size: 1.3rem;
+    line-height: 25px;
+}
+header{
+    background-color: rgb(199, 206, 217);
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header nav ul li:hover{
+    text-decoration: underline;
+
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.actually_open{
+    text-decoration: underline;
+}
+
+.logo{
+    margin-right: auto;
+    max-width: 100px;
+}
+
+.title_container{
+    position: relative;
+    text-align: center;
+}
+
+.main_picture{
+    width: 100%;
+    height: 80vh;
+}
+
+main .absolute{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    border: #fff 3px solid;
+    padding: 10px 20px;
+    background-color: #000;
+    border-radius: 15px;
+    font-size: 2.5rem;
+}
+
+main .static{
+    margin-top: .3%;
+    text-align: center;
+    color: #fff;
+    border: #fff 3px solid;
+    padding: 10px 20px;
+    background-color: #000;
+    border-radius: 15px;
+    font-size: 2.5rem;
+}
+
+#tovabb_olvasok_button{
+
+    color: #000;
+    text-decoration: none;
+    border: #000 solid 4px;
+    padding: 10px 20px;
+    background-color: #fff;
+    position: relative;
+    top: -2vh;
+    border-radius: 20px;
+}
+
+#tovabb_olvasok_button:hover{
+   text-decoration: underline;
+}
+
+
+main section h2{
+    text-align: center;
+}
+
+.image_container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.image_container1 img{
+    margin: 20px 20px;
+    border-radius: 15px;
+}
+
+section p{
+    text-align: justify;
+    margin: 50px 100px;
+}
+
+.bottom_button{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+.bottom_button a{
+    color: #000;
+    text-decoration: none;
+    border: #000 solid 4px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 20px;
+
+}
+.bottom_button a:hover{
+    text-decoration: underline;
+}
+
+figcaption{
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+footer{
+    background-color: rgb(218, 221, 227) ;
+}
+
+footer p{
+   text-align: center;
+   padding: 10px;
+}
